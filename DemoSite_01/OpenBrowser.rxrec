@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f06d3e86-a427-40b4-8929-c812032f5b41"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="DemoSite_01">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcodecache="False"
+		clearcookies="False"
+		clearserviceworker="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://magento.softwaretestingboard.com/
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="f2adb914-862c-410a-b1b4-b8198a731dc0"
+	name="DemoSite_01Repository"
+	relativepath="DemoSite_01Repository.rxrep">
+		<codegen
+		classname="DemoSite_01Repository"
+		namespace="DemoSite_01">
+		</codegen>
+		<rootfolder
+		id="8da48f1f-e6e6-475b-bb3a-0a59fc9ea6b8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

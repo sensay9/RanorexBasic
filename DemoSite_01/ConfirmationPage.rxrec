@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="29204d39-e4db-40a5-8afc-67a2a363c9fd"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ConfirmationPage"
+	namespace="DemoSite_01">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="84b25e62-776f-44fc-a5d2-4ce69b7faa0d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="dee30614-8ec3-4ded-a5f0-a2fc3332356f"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="332,352,524,54"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						base
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Thank you for your purchase!
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						base
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ui-id"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']//span[@innertext&gt;'Thank you for your purcha']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Thank you for your purchase!
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="f2adb914-862c-410a-b1b4-b8198a731dc0"
+	name="DemoSite_01Repository"
+	relativepath="DemoSite_01Repository.rxrep">
+		<codegen
+		classname="DemoSite_01Repository"
+		namespace="DemoSite_01">
+		</codegen>
+		<rootfolder
+		id="8da48f1f-e6e6-475b-bb3a-0a59fc9ea6b8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ConfirmationPage.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

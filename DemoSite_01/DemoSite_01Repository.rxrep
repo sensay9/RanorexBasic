@@ -1,0 +1,647 @@
+﻿<repository
+id="f2adb914-862c-410a-b1b4-b8198a731dc0"
+name="DemoSite_01Repository">
+	<codegen
+	classname="DemoSite_01Repository"
+	namespace="DemoSite_01">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="8da48f1f-e6e6-475b-bb3a-0a59fc9ea6b8"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="c7ef2a44-1e29-48dc-9729-4b69cc73a74c"
+		isrooted="True"
+		name="MagentoTesting"
+		refimgid="fe7ccb68-d0ce-4178-8b1a-0a8205f5be9c"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			capname="webdocument"
+			id="ee38c34a-b46c-4c9e-abd8-02a5682a5fee"
+			isrooted="True"
+			name="AccountRegistration"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="02f96981-307b-44d2-af25-04b76d1f315e"
+				name="CreateNewCustomerAccount"
+				refimgid="ce3ee6db-f462-4637-80b4-657d2f829026"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']//span[@innertext&gt;'Create New Customer Accou']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="34f792a4-2212-470d-995e-4f67067c382c"
+				name="Firstname"
+				refimgid="9329fdc9-bb2f-478b-ae31-9dc47b40a351"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']/dom[@domain='magento.softwaretestingboard.com']//input[#'firstname']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="b4cb696c-f8ef-4c0d-82d5-60db174e6014"
+				name="Lastname"
+				refimgid="c04565ee-c892-4815-ad14-70ed610539e2"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']/dom[@domain='magento.softwaretestingboard.com']//input[#'lastname']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="6c77fa76-e8b4-4329-83dd-004ec1929c94"
+				name="EmailAddress"
+				refimgid="a8cec077-65ae-44f9-92aa-2dc015e8882a"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']/dom[@domain='magento.softwaretestingboard.com']//input[#'email_address']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="fcb07d2d-7ca7-4599-bfc9-cb95bf7a17b1"
+				name="Password"
+				refimgid="b719a98e-54de-4b0b-a08f-bf7650c783a0"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']/dom[@domain='magento.softwaretestingboard.com']//input[#'password']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="15798b4a-076c-4ebf-b847-3642d5e320aa"
+				name="PasswordConfirmation"
+				refimgid="306e109b-bbb7-4350-82f1-201129a2b56f"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']/dom[@domain='magento.softwaretestingboard.com']//input[#'password-confirmation']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="46e1a07b-9c03-46e7-bfce-63e0145e629b"
+				name="CreateAnAccount1"
+				refimgid="77c6f4dc-cd55-4e04-b019-2fd794f809ff"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']/dom[@domain='magento.softwaretestingboard.com']//form[#'form-validate']//button[@title='Create an Account']/span[@innertext='Create an Account']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="74ad3d4c-f342-4d28-8b62-c7131646711e"
+				name="ThankYouForRegisteringWithMainWebs"
+				refimgid="d19745b4-4a2a-4398-8aa3-917e0b82cfb6"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[1]//div[@innertext&gt;'Thank you for registering']
+				</item>
+				<basepath>
+					/dom[@domain='magento.softwaretestingboard.com']/dom[@domain='magento.softwaretestingboard.com']
+				</basepath>
+			</folder>
+			<folder
+			addcaps="unknown,webelement,ultag"
+			capname="ultag"
+			id="21fe1bb2-b678-4bdf-b4c6-af9670354fcf"
+			isrooted="True"
+			name="HeaderLinks"
+			refpath="/dom[@domain='magento.softwaretestingboard.com']/body/div[2]/header/div[1]/div/ul"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,webelement,buttontag"
+				capname="buttontag"
+				id="435864dd-4497-46a5-9208-a5708f4fb07b"
+				name="ActionSwitch"
+				refimgid="38b94b81-1a7a-4683-8806-5a47d1c0c9d6"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']/body/div[2]/header/div[1]/div/ul/li[2]/span/button"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']/body/div[2]/header/div[1]/div/ul//button
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="0b4a331c-7bc6-4c6e-a430-70fa18026c27"
+				name="CreateAnAccount"
+				refimgid="99187c9f-49b3-499d-a8a3-f9688c6b6da2"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']/body/div[2]/header/div[1]/div/ul/li[3]/a[@innertext='Create an Account']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']/body/div[2]/header/div[1]/div/ul/?/?/a[@innertext='Create an Account']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="ec36ed6a-be2b-4946-b164-86d70e3f1bda"
+				name="ATagSignOut"
+				refimgid="85808099-d0f3-4eb5-a0c6-f56df83ce580"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']/body/div[2]/header/div[1]/div/ul/li[2]/div/ul/li[3]/a[@innertext='Sign Out ']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']/body/div[2]/header/div[1]/div/ul/?/?/div/ul/?/?/a[@innertext='Sign Out ']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="b6971fa0-18ca-4220-a212-287be55ceda7"
+				name="ATagSignIn"
+				refimgid="7cdeb95b-afe9-4fd9-8fdd-19f16f03eed6"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']/body/div[2]/header/div[1]/div/ul/li[2]/a[@innertext='Sign In ']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']/body/div[2]/header/div[1]/div/ul/?/?/a[@innertext='Sign In ']
+				</item>
+				<basepath>
+					/dom[@domain='magento.softwaretestingboard.com']/body/div[2]/header/div[1]/div/ul
+				</basepath>
+			</folder>
+			<folder
+			capname="unknown"
+			id="2914b639-65dd-4153-b3aa-23b3e45a2f64"
+			isrooted="False"
+			name="SignInForm"
+			searchtimeout="0ms">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="d05582d0-5812-45a2-b915-41ece52cf1e8"
+				name="Pass"
+				refimgid="3bd36a10-8b7a-4ac8-bd05-2d31f38f64cd"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//input[#'pass']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//form[#'login-form']/fieldset/div[3]/?/?/input[@id='pass']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="1265a0ff-39b2-4c5c-9d14-e514576c8b74"
+				name="SignIn"
+				refimgid="ddf9ffb9-9540-4eb3-8273-529cd1ddbc6f"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//button[#'send2']/span[@innertext='Sign In']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//form[#'login-form']//button[@id='send2']/span[@innertext='Sign In']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="5f45aa82-1145-4f18-b027-36d3cd227061"
+				name="Email"
+				refimgid="3da0d7fd-4409-4e41-b688-64d431f77b63"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//input[#'email']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//input[#'email']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="4a4e78b3-cf74-4485-b29a-9ba11d7aca4a"
+			isrooted="False"
+			name="HeaderCart"
+			searchtimeout="0ms">
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="0f77d3f2-44fe-4f6f-9688-227c6cb19ee1"
+				name="Cart"
+				refimgid="eb81844a-806b-49a4-a14b-55116df381f4"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']/body/div[2]/header/div[2]/div[1]/a[@href='https://magento.softwaretestingboard.com/checkout/cart/']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']/body/div[2]/header/div[2]/div[1]/a[@href&gt;'https://magento.softwaret']
+				</item>
+				<item
+				addcaps="button,webelement,buttontag"
+				capname="buttontag"
+				id="d3bc8c8a-7395-4666-a6ac-0221e267a822"
+				name="TopCartBtnCheckout"
+				refimgid="44696621-b8ca-4146-807b-609779cf9361"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//button[#'top-cart-btn-checkout']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//button[#'top-cart-btn-checkout']
+				</item>
+			</folder>
+			<folder
+			addcaps="unknown,webelement,maintag"
+			capname="maintag"
+			id="24897bf1-0fc7-40e3-9932-e1b4f58ad63b"
+			isrooted="True"
+			name="Maincontent"
+			refpath="/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="4cb662bf-8192-411d-9518-fca4b513a208"
+				name="DivTagM"
+				refimgid="b2fbc90e-35c2-44ad-b77f-714d29a4ed50"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[3]/ol/li[1]/div/div/div[2]/div[1]/div/div[@innertext='M']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[3]/ol/li[1]//div[@innertext='M']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="e30b2414-aca6-45fe-9367-cabf0c305006"
+				name="AddToCart"
+				refimgid="89d506b4-dd9d-4814-b47e-c451842e0c3e"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[3]/ol/li[1]/div/div/div[3]/div/div[1]/form/button/span[@innertext='Add to Cart']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[3]/ol/li[1]//form[@action='https://magento.softwaretestingboard.com/checkout/cart/add/uenc/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS93b21lbi90b3BzLXdvbWVuL2hvb2RpZXMtYW5kLXN3ZWF0c2hpcnRzLXdvbWVuLmh0bWw%2C/product/1210/']/button[@title='Add to Cart']/span[@innertext='Add to Cart']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="f9840e1b-03c5-4201-ad0b-d795f3ba56a5"
+				name="ATagCirceHoodedIceFleece"
+				refimgid="c7549f27-7564-4b95-aed6-6c541c7f0286"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[3]/ol/li[1]/div/div/strong/a[@innertext='Circe Hooded Ice Fleece ']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[3]/ol/li[1]//a[@innertext='Circe Hooded Ice Fleece ']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="2017286b-f486-4f7f-8ffc-a7dcfeab2bc2"
+				name="ColorSwatchOption"
+				refimgid="b6d075df-ede7-4c53-9abe-afd718193aa4"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[3]/ol/li[1]/div/div/div[2]/div[2]/div/div[2]"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[3]/ol/li[1]/div/div/div[2]/div[2]/div/div[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="4b5b7ebc-27ea-4a1c-aa49-7a57e7afcf5d"
+				name="HoodiesSweatshirts"
+				refimgid="fb330384-049d-4ca9-8ccc-9cfac46266e9"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[4]/div[2]/div[2]/div/ul[1]/li[1]/a[@innertext='Hoodies &amp; Sweatshirts']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[4]/div[2]/div[2]/div/ul[1]/?/?/a[@innertext='Hoodies &amp; Sweatshirts']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="dee30614-8ec3-4ded-a5f0-a2fc3332356f"
+				name="ThankYouForYourPurchase"
+				refimgid="bfe0c4fc-2028-4c6d-8eb4-93262100b532"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[1]/h1/span[@innertext='Thank you for your purchase!']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']//span[@innertext&gt;'Thank you for your purcha']
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="cf11f3ec-b663-4fe8-9ca4-b00964058341"
+				name="ItemProductProductItem"
+				refimgid="498af2eb-e157-43d1-aed1-1538ab83f461"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[2]/div[2]/ol/li[5]"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[2]/?/?/ol/li[5]
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="b3e23999-0085-4c82-8026-11d012899821"
+				name="ATagDidiSportWatch"
+				refimgid="fdfd510d-151d-4e48-a2f2-123c20101235"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[2]/div[2]/ol/li[5]/div/div/strong/a[@innertext='Didi Sport Watch ']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[2]/?/?/ol/li[5]//a[@innertext='Didi Sport Watch ']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="232e8f8e-3ee6-4742-b36b-ebc169045e99"
+				name="AddToWishList"
+				refimgid="7a2acc70-3395-40d1-a9aa-769eddd8168a"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[2]/div/div[1]/div[5]/div/a[1]/span[@innertext='Add to Wish List']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[2]/div/div[1]/div[5]//span[@innertext='Add to Wish List']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="9e788426-ce0d-4480-a052-ac73694649c4"
+				name="DivTagDidiSportWatchHasBeenAddedT"
+				refimgid="bf8cacbc-c64c-4e41-a610-93040f5f9e26"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[1]/div[2]/div/div/div[@innertext='Didi Sport Watch has been added to your Wish List. Click  to continue shopping.']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[1]//div[@innertext&gt;'Didi Sport Watch has been']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="13cabf8d-dc71-459f-926c-d1efb404a3aa"
+				name="FitnessEquipment"
+				refimgid="4788d992-6a8f-4dd3-a7d2-e985faf7c7f6"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[4]/div[2]/div/div/ul[3]/li[2]/a[@innertext='Fitness Equipment']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[4]/div[2]/div/div/ul[3]/?/?/a[@innertext='Fitness Equipment']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="707b052c-41df-45dd-ac52-8cce68c1430d"
+				name="AddToWishList1"
+				refimgid="5d6f6e1f-69b4-482b-acde-78f3ae4bc157"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[3]/ol/li[2]/div/div/div[2]/div/div[2]/a[@title='Add to Wish List']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[3]/ol/li[2]//a[@title='Add to Wish List']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="504aa3b2-c3ec-455a-a09c-972c47622719"
+				name="DivTagSetOfSpriteYogaStrapsHasBee"
+				refimgid="2ffe3e89-e08c-45aa-a187-8cf723ac2682"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[1]/div[2]/div/div/div[@innertext='Set of Sprite Yoga Straps has been added to your Wish List. Click  to continue shopping.']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[1]//div[@innertext&gt;'Set of Sprite Yoga Straps']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="6b030cb5-0d9a-465a-ba60-a5d048cf10c2"
+				name="ATagSetOfSpriteYogaStraps"
+				refimgid="17e24516-4344-49ee-b31e-e493364dab41"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[3]/ol/li[2]/div/div/strong/a[@innertext='Set of Sprite Yoga Straps ']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[3]/ol/li[2]//a[@innertext&gt;'Set of Sprite Yoga Straps']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="717e703a-e53b-4091-a6d1-1203c34bebb7"
+				name="YouAreSignedOut"
+				refimgid="c8d5f738-1708-4f16-8a3f-1a783017498c"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[1]/h1/span"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']//span
+				</item>
+				<basepath>
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']
+				</basepath>
+			</folder>
+			<folder
+			addcaps="unknown,webelement,ultag"
+			capname="ultag"
+			id="c1110ff0-1ecc-4ba8-b547-bdcaeac17e4c"
+			isrooted="True"
+			name="UiCornerAllUiMenuUiWidgetUiWidge"
+			refpath="/dom[@domain='magento.softwaretestingboard.com']//div[#'store.menu']/nav/ul"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="b84bca7e-1754-42f5-9317-9c6a7d8a1ea2"
+				name="Women"
+				refimgid="e74aeac1-6b7e-4998-b502-6bf027bb9ced"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//div[#'store.menu']/nav/ul/li[2]/a[@href='https://magento.softwaretestingboard.com/women.html']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//div[#'store.menu']/nav/ul/li[2]/a[@href&gt;'https://magento.softwaret']
+				</item>
+				<basepath>
+					/dom[@domain='magento.softwaretestingboard.com']//div[#'store.menu']/nav/ul
+				</basepath>
+			</folder>
+			<folder
+			addcaps="unknown,webelement,oltag"
+			capname="oltag"
+			id="2a9f0f6a-8588-463b-ab51-390cbcc59670"
+			isrooted="True"
+			name="MinicartItems"
+			refpath="/dom[@domain='magento.softwaretestingboard.com']//div[#'opc-sidebar']/div[1]/div/div[2]/div/ol"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="d8eb9902-2cbf-4990-aa8f-73e03be4ae93"
+				name="ViewDetails"
+				refimgid="b1aebeb5-a4da-4178-adb0-8d9c0cf8bd8a"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//div[#'opc-sidebar']/div[1]/div/div[2]/div/ol/li/div/div/div[2]/span/span[@innertext='View Details']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//div[#'opc-sidebar']/div[1]/div/div[2]/?/?/ol//span[@innertext='View Details']
+				</item>
+				<item
+				addcaps="unknown,webelement,ddtag"
+				capname="ddtag"
+				id="be2adf17-80c5-483d-9d7f-08e4d62a9d3b"
+				name="Green"
+				refimgid="0b02fcca-78a6-44d3-b441-6adeca76341e"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//div[#'opc-sidebar']/div[1]/div/div[2]/div/ol/li/div/div/div[2]/div/dl/dd[@innertext='Green']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//div[#'opc-sidebar']/div[1]/div/div[2]/?/?/ol/li/div/div//dd[@innertext='Green']
+				</item>
+				<item
+				addcaps="unknown,webelement,ddtag"
+				capname="ddtag"
+				id="98e457b8-01b4-4b94-bee8-9b6235b8be2d"
+				name="DdTagM"
+				refimgid="dff35906-f724-4a33-9a35-34c2bd687f60"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//div[#'opc-sidebar']/div[1]/div/div[2]/div/ol/li/div/div/div[2]/div/dl/dd[@innertext='M']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//div[#'opc-sidebar']/div[1]/div/div[2]/?/?/ol/li/div/div//dd[@innertext='M']
+				</item>
+				<basepath>
+					/dom[@domain='magento.softwaretestingboard.com']//div[#'opc-sidebar']/div[1]/div/div[2]/?/?/ol
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="f18a001e-155b-4c13-8805-d60af093916f"
+			name="KoUnique1"
+			refimgid="fcdeeb80-2dd3-4621-a71a-521b1832a9be"
+			refpath="/dom[@domain='magento.softwaretestingboard.com']//div[#'checkout-shipping-method-load']/table/tbody/tr[1]/td[1]/input[@name='ko_unique_1']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='magento.softwaretestingboard.com']//div[#'checkout-shipping-method-load']/table//input[@name='ko_unique_1']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="8ae14a52-be96-4d7a-8d4d-bf2d0186c7ca"
+			name="ActionButtonContinuePrimary"
+			refimgid="057e2cae-b645-49b6-b565-e97cd061fa1a"
+			refpath="/dom[@domain='magento.softwaretestingboard.com']//div[#'shipping-method-buttons-container']/div/button"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='magento.softwaretestingboard.com']//div[#'shipping-method-buttons-container']/?/?/button
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="5b5596ed-9d03-4fe1-b3bf-ddf36263d7f2"
+			name="PlaceOrder"
+			refimgid="a78bd3cd-71fb-4b33-a038-f13f5c01c825"
+			refpath="/dom[@domain='magento.softwaretestingboard.com']//div[#'checkout-payment-method-load']/div/div/div[2]/div[2]/div[4]/div/button[@title='Place Order']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='magento.softwaretestingboard.com']//div[#'checkout-payment-method-load']/div/div/div[2]/div[2]/div[4]/?/?/button[@title='Place Order']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="723c0e48-c03c-48f7-83f9-31f08b305993"
+			name="Search"
+			refimgid="0ee9c070-7ff9-4cd1-9a06-41078cc64689"
+			refpath="/dom[@domain='magento.softwaretestingboard.com']//input[#'search']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='magento.softwaretestingboard.com']//input[#'search']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="445d476f-9df0-4028-9990-fcb57c30c41a"
+			name="Search1"
+			refimgid="e738685b-1c20-488b-80c7-09bc6265403e"
+			refpath="/dom[@domain='magento.softwaretestingboard.com']//form[#'search_mini_form']/div[2]/button[@title='Search']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='magento.softwaretestingboard.com']//form[#'search_mini_form']/?/?/button[@title='Search']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="418ab54b-5176-4ab5-a289-412b8487b24d"
+			name="Sale"
+			refimgid="75fa8bd6-5374-433c-bfb1-bd7e329f85d3"
+			refpath="/dom[@domain='magento.softwaretestingboard.com']//div[#'store.menu']/nav/ul/li[6]/a[@href='https://magento.softwaretestingboard.com/sale.html']/span[@innertext='Sale']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='magento.softwaretestingboard.com']//div[#'store.menu']/nav//span[@innertext='Sale']
+			</item>
+			<folder
+			addcaps="unknown,webelement,formtag"
+			capname="form"
+			id="a1ff9f3f-0648-45e7-aab9-7caf57a3b288"
+			isrooted="True"
+			name="WishlistViewForm"
+			refpath="/dom[@domain='magento.softwaretestingboard.com']//form[#'wishlist-view-form']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="774756ad-faec-4499-b589-f1ff67a0c69d"
+				name="RemoveItem"
+				refimgid="b88093be-9891-4c33-bd3b-b39bc3deec1b"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//form[#'wishlist-view-form']/div[1]/ol/li[1]/div/div[3]/div[3]/a[@title='Remove Item']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//form[#'wishlist-view-form']/?/?/ol/li[1]/div/div[3]/?/?/a[@title='Remove Item']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="574a69a5-8cab-4348-8269-4759ec594f1b"
+				name="DidiSportWatch"
+				refimgid="ef37b192-54bb-4316-8b6f-2db57abcab7e"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//form[#'wishlist-view-form']/div[1]/ol/li[1]/div/strong/a[@innertext='Didi Sport Watch ']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//form[#'wishlist-view-form']/?/?/ol//strong/a[@innertext='Didi Sport Watch ']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="774618f5-bc58-433f-9da1-637710b8879a"
+				name="SetOfSpriteYogaStraps1"
+				refimgid="c91cbd24-7868-4c80-b32b-5d921f6a080a"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//form[#'wishlist-view-form']/div[1]/ol/li/div/strong/a[@innertext='Set of Sprite Yoga Straps ']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//form[#'wishlist-view-form']/?/?/ol//strong/a[@innertext&gt;'Set of Sprite Yoga Straps']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="ee8b240e-9a9e-479e-a91f-cb232ff0195d"
+				name="YouHaveNoItemsInYourWishList"
+				refimgid="d5aeb09a-1c52-473a-8892-5eb837b6a029"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//form[#'wishlist-view-form']/div[1]/span[@innertext='You have no items in your wish list.']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//form[#'wishlist-view-form']/?/?/span[@innertext&gt;'You have no items in your']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="cdd68df8-eced-48e6-b1ce-ec0782ef241a"
+				name="RemoveItem1"
+				refimgid="51009e12-77a1-4f0f-9bff-18104d7327bb"
+				refpath="/dom[@domain='magento.softwaretestingboard.com']//form[#'wishlist-view-form']/div[1]/ol/li/div/div[2]/div[3]/a[@title='Remove Item']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='magento.softwaretestingboard.com']//form[#'wishlist-view-form']/?/?/ol/li/div/div[2]/?/?/a[@title='Remove Item']
+				</item>
+				<basepath>
+					/dom[@domain='magento.softwaretestingboard.com']//form[#'wishlist-view-form']
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='magento.softwaretestingboard.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -1,0 +1,737 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ebf87a4f-5a5a-415e-9087-4215cfc56e21"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddingOneItemInCart"
+	namespace="DemoSite_01">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="9fccaf61-f66c-4173-adcf-72451f2f1b6b"
+		sx="478"
+		sy="308"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b84bca7e-1754-42f5-9317-9c6a7d8a1ea2"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="436,285,85,47"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						level-top ui-corner-all
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						ui-id-4
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						level-top ui-corner-all
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://magento.softwaretestingboard.com/women.html
+					</attribute>
+					<attribute
+					name="tabindex"
+					type="System.String">
+						-1
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-haspopup"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//div[#'store.menu']/nav/ul/li[2]/a[@href&gt;'https://magento.softwaret']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="260f369f-dd3e-4ba5-bce5-0006cf7d15b7"
+		sx="405"
+		sy="681"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4b5b7ebc-27ea-4a1c-aa49-7a57e7afcf5d"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="332,672,147,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Hoodies &amp; Sweatshirts
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://magento.softwaretestingboard.com/women/tops-women/hoodies-and-sweatshirts-women.html
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[4]/div[2]/div[2]/div/ul[1]/?/?/a[@innertext='Hoodies &amp; Sweatshirts']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="f9b3f749-1ca6-42f3-bd8d-042ec1b918c7">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f9840e1b-03c5-4201-ad0b-d795f3ba56a5"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="620,822,155,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						product-item-link
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#10;Circe Hooded Ice Fleece&#32;
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						product-item-link
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://magento.softwaretestingboard.com/circe-hooded-ice-fleece.html
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[3]/ol/li[1]//a[@innertext='Circe Hooded Ice Fleece ']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				&#10;Circe Hooded Ice Fleece&#32;
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="2f45afd6-b2f3-4daa-b9c7-282534c3e08f"
+		sx="684"
+		sy="987"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2017286b-f486-4f7f-8ffc-a7dcfeab2bc2"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="divtag"
+				rect="666,975,36,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						swatch-option color
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						option-label-color-93-item-53
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						color swatch-option
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-checked"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-describedby"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-label"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="index"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="option-id"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="option-label"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="option-tooltip-thumb"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="option-tooltip-value"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="option-type"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="tabindex"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="thumb-height"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="thumb-width"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[3]/ol/li[1]/div/div/div[2]/div[2]/div/div[2]
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="27;19"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="ddaa509d-b16c-4f1b-97b0-4fa37db43dc3"
+		sx="741"
+		sy="914"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4cb662bf-8192-411d-9518-fca4b513a208"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="2"
+				prefcap="divtag"
+				rect="714,895,40,30"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						swatch-option text
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						option-label-size-143-item-168
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						M
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						swatch-option text
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-checked"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-describedby"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-label"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="index"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="option-id"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="option-label"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="option-tooltip-thumb"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="option-tooltip-value"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="option-type"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="tabindex"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="thumb-height"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="thumb-width"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[3]/ol/li[1]//div[@innertext='M']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="3b1c8b3a-797a-4d46-ac00-835aa6b8e9cc">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABaAMwDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpCAcZ
+AOOR7U1Y0ViyooLdSB1p1FACBEG3CqNvC8dKRo0cguisR0JGcU6igBvlR79+xd/97HNJLDHMAJED
+YIIyKfRQAySKOVQskaOo7MuRRJBFIoWSJHA6BlBxT6KAG+Wm5W2LlRgHHQUiRRxszJGis3UhQCaf
+RQAxERHbYirnk4GMn1pLiMyooUjh1bn2OadkBzkgcClDAnAIP40AUzZvtnXcpDDEY/ugnJ/X+Qq7
+RSbl/vD86ABerfX+lLSKclsev9KWgAooooAKKKKACiiigAooooAKKKKACim719/yo3r7/lQA6im7
+19/ypQwPSgBaKQsAcH+VJvX3/KgB1FN3r7/lRvX3/KgB1FN3r7/lTJ5fLtpZEwSiEjPqBQNK7sS0
+jLu9iOhrKhvdUniEkdvCyN0Ocf8As1P+0av/AM+sP5j/AOKqeY2dBp2bX3mhlm+XG31P+FPAAGB0
+rM+0av8A8+sP5j/4qj7Rq/8Az6w/mP8A4qjm8g9i/wCZfeadFZn2jV/+fWH8x/8AFUlvf3Z1BLa5
+ijTcCTt69CfWjmQewdm0195qUUm9ff8AKk3r7/lVGA6im719/wAqN6+/5UAOopu9ff8AKnA5GRQA
+UUUUAFFFFAEdFU3x9oK8+UWG703UqhUusna+5uGB5HtigC3Sp94/QUlKn3j9BQAN9/8ACkpW+/8A
+hSUAFFV7tchSSpxztY4zUsJDRKVGBjgUAPqK6/48bn/cb/0Gpaiuv+PG5/3G/wDQaT2Kh8SIdJ/5
+BsP4/wDoRq3VTSf+QbD+P/oRq3RHZFVv4kvVhRWMjtDLc7c5uJGRf97OB/P9KvaWoSzCjoHYD/vo
+0zMt1mN/yMcf+7/7Ka06zG/5GOP/AHf/AGU1MuhvR3l6M0/X6mij1+poqjAKKgVgt3JuIHA6mp6A
+Cnp9xfpTKen3F+lAC0UUUAFFFFAEOxdpXaMHqMUBEDbgig+oFP2H1H5UbD6j8qAEpU+8foKNh9R+
+VOVcE5Oc0ANb7/4UlOZSTkHH4Umw+o/KgBjIr/eUNj1GadS7D6j8qNh9R+VACVFdf8eNz/uN/wCg
+1NsPqPyqK7XbY3HOf3bfypPYqHxIg0n/AJBsP4/+hGrdYlnqsdtapC0TMVzyD7k1P/bcX/PB/wDv
+oVMZKyOirQqObaXU0fKjyD5a5Dbunf1+tUdRTAIjZ4glvLIBGxX5htwTj6mo212JVJMD8DP3hUhZ
+726aB4JLctbSLlsEfMV5GKpNPYwnTlD4kTLqdkzlDOEYdfMBT+YFV2/5GOP/AHf/AGU1dkskkl3P
+tdTN5hVlz/Btx/WsbS5RNqNoQCNsQX8kIpS6GlBP3n5M3/X6mil2HPUflRsPqPyqjAY0aMcsik+p
+FOpdh9R+VGw+o/KgBKen3F+lN2H1H5U8DAA9KACiiigAooooAj/E/nR+J/OoGmkEpi2jeT8p7Yp8
+UhdpAcfK2BigCT8T+dKnU8mkpU+8foKAH0UUUAFFFFABRRRQAUUUUAIyq6lWAZSMEEZBFUYpPsE3
+2eY7bdj+4kY5x/sE/wAvar9NkjSVCkqK6HqrDINAEF5exWsJO4NIeEReSx7ACpLSJobSGJyCyRqp
+x0yBiiK1t4G3QwRRsRjKIAcVLQAUUUUAFFFFABRRRQAUUUUAFFFFAFU2+WL7/n3ZDY6e1CxOkjMJ
+OGbJG2pqKAClT7x+gpKVPvH6CgB9FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQB//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="45;-1"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="ddabadc2-437b-41f9-af00-fd3e93ab6772"
+		sx="681"
+		sy="1021"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e30b2414-aca6-45fe-9367-cabf0c305006"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="636,1022,71,18"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Add to Cart
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[3]/ol/li[1]//form[@action='https://magento.softwaretestingboard.com/checkout/cart/add/uenc/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS93b21lbi90b3BzLXdvbWVuL2hvb2RpZXMtYW5kLXN3ZWF0c2hpcnRzLXdvbWVuLmh0bWw%2C/product/1210/']/button[@title='Add to Cart']/span[@innertext='Add to Cart']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="f1a3f2f5-e97b-40e6-b4af-d1b26912ac2c">
+				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
+pUX2K1/59of+/YoooA//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="f2adb914-862c-410a-b1b4-b8198a731dc0"
+	name="DemoSite_01Repository"
+	relativepath="DemoSite_01Repository.rxrep">
+		<codegen
+		classname="DemoSite_01Repository"
+		namespace="DemoSite_01">
+		</codegen>
+		<rootfolder
+		id="8da48f1f-e6e6-475b-bb3a-0a59fc9ea6b8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddingOneItemInCart.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

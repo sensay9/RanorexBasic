@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="edc16063-bc76-4b89-bb5d-f280b2230a29"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SearchFunctionality"
+	namespace="DemoSite_01">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<keysequenceitem
+		KeySequence="Didi Sport Watch"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="707a5e51-ff6e-4796-b0cb-358ad798b7ba">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="723c0e48-c03c-48f7-83f9-31f08b305993"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="1287,225,250,32"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						input-text
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						search
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						input-text
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						128
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						q
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						Search entire store here...
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-autocomplete"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-expanded"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-haspopup"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//input[#'search']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="48111ff7-3ee0-47b4-94c4-b5c509a4f4f1"
+		sx="1519"
+		sy="241"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="445d476f-9df0-4028-9990-fcb57c30c41a"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, buttontag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="buttontag"
+				rect="1511,225,16,32"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						action search
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						action search
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Search
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						submit
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-label"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//form[#'search_mini_form']/?/?/button[@title='Search']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Move"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="87c756d0-77f9-4c6d-a549-9f3e850d24eb"
+		sx="727"
+		sy="683"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cf11f3ec-b663-4fe8-9ca4-b00964058341"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, litag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="4"
+				prefcap="litag"
+				rect="615,487,225,392"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						item product product-item
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						item product product-item
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						li
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[2]/?/?/ol/li[5]
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="8115d17e-9a62-434a-a00d-e1ba34c5988e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b3e23999-0085-4c82-8026-11d012899821"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="620,670,109,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						product-item-link
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#10;Didi Sport Watch&#32;
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						product-item-link
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://magento.softwaretestingboard.com/didi-sport-watch.html
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[2]/?/?/ol/li[5]//a[@innertext='Didi Sport Watch ']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="52a2092b-a7a2-4409-8adb-a80bb6dcb2c8">
+				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
+ABRRRQAVRuf9e34fyoooA//Z
+			</helperscreenshot>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				&#10;Didi Sport Watch&#32;
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="56589db5-6d0b-45a2-ab91-98bf8607fcf4"
+		sx="0"
+		sy="109"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b3e23999-0085-4c82-8026-11d012899821"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="0,109,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[2]/?/?/ol/li[5]//a[@innertext='Didi Sport Watch ']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="f2adb914-862c-410a-b1b4-b8198a731dc0"
+	name="DemoSite_01Repository"
+	relativepath="DemoSite_01Repository.rxrep">
+		<codegen
+		classname="DemoSite_01Repository"
+		namespace="DemoSite_01">
+		</codegen>
+		<rootfolder
+		id="8da48f1f-e6e6-475b-bb3a-0a59fc9ea6b8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SearchFunctionality.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

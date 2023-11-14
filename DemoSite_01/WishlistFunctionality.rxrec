@@ -1,0 +1,1240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="05854043-be94-419a-90f4-9390815f2f29"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="WishlistFunctionality"
+	namespace="DemoSite_01">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="09919a58-f734-460f-995e-51e8610f9c0a"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="232e8f8e-3ee6-4742-b36b-ebc169045e99"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="0,0,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[2]/div/div[1]/div[5]//span[@innertext='Add to Wish List']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="ad92a693-e173-4769-97d8-4c306de76510">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9e788426-ce0d-4480-a052-ac73694649c4"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="377,369,1175,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#10;Didi Sport Watch has been added to your Wish List. Click  to continue shopping.
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-bind"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[1]//div[@innertext&gt;'Didi Sport Watch has been']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				&#10;Didi Sport Watch has been added to your Wish List. Click  to continue shopping.
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="be371bbe-4475-427b-bba2-a5fcc58f133a"
+		sx="0"
+		sy="109"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="418ab54b-5176-4ab5-a289-412b8487b24d"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="0,109,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//div[#'store.menu']/nav//span[@innertext='Sale']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="26b2b1ab-e743-439d-963f-8fd0e6819c55"
+		sx="392"
+		sy="816"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="13cabf8d-dc71-459f-926c-d1efb404a3aa"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="332,807,121,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Fitness Equipment
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://magento.softwaretestingboard.com/gear/fitness-equipment.html
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[4]/div[2]/div/div/ul[3]/?/?/a[@innertext='Fitness Equipment']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Move"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="64d161c5-49d7-47a6-9a17-6a1e7c39d25d"
+		sx="943"
+		sy="831"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6b030cb5-0d9a-465a-ba60-a5d048cf10c2"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="864,822,159,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						product-item-link
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#10;Set of Sprite Yoga Straps&#32;
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						product-item-link
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://magento.softwaretestingboard.com/set-of-sprite-yoga-straps.html
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[3]/ol/li[2]//a[@innertext&gt;'Set of Sprite Yoga Straps']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="35162dae-0b66-47ae-a12a-cceefbafe439"
+		sx="348"
+		sy="955"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="707b052c-41df-45dd-ac52-8cce68c1430d"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="331,938,35,35"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						action towishlist
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						action towishlist
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://magento.softwaretestingboard.com/gear/fitness-equipment.html#
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Add to Wish List
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-label"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-action"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-post"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[3]/div[1]/div[3]/ol/li[2]//a[@title='Add to Wish List']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="ce1e356f-6d1f-4958-a3ee-64a7f1d6212e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="504aa3b2-c3ec-455a-a09c-972c47622719"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="377,369,1175,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#10;Set of Sprite Yoga Straps has been added to your Wish List. Click  to continue shopping.
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-bind"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[1]//div[@innertext&gt;'Set of Sprite Yoga Straps']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				&#10;Set of Sprite Yoga Straps has been added to your Wish List. Click  to continue shopping.
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Move"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="77c8c4ea-bf20-4ee5-8548-7007f4c814e0"
+		sx="687"
+		sy="734"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="574a69a5-8cab-4348-8269-4759ec594f1b"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="633,725,109,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						product-item-link
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#10;Didi Sport Watch&#32;
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						product-item-link
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://magento.softwaretestingboard.com/didi-sport-watch.html?qty=2
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Didi Sport Watch
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//form[#'wishlist-view-form']/?/?/ol//strong/a[@innertext='Didi Sport Watch ']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="10;13"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="63ed18d0-2e49-4a47-b494-3c7cb77dde57"
+		sx="676"
+		sy="977"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="774756ad-faec-4499-b589-f1ff67a0c69d"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="atag"
+				rect="666,964,18,21"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						btn-remove action delete
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						action btn-remove delete
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://magento.softwaretestingboard.com/wishlist/index/index/wishlist_id/68559/#
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Remove Item
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-post-remove"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//form[#'wishlist-view-form']/?/?/ol/li[1]/div/div[3]/?/?/a[@title='Remove Item']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="9bf6a805-ccb7-43f4-a31e-b20e9addbb01">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA3AHIDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDon+8n
++9/Q06mv95P97+hp1ABRRRQAUUVFcXEVsgeZtqk4zgnn8KBpNuyJaKpf2tY/89//ABxv8KP7Wsf+
+e/8A443+FLmXcv2NT+V/cXaKrQ6hazyiOKXc7dBtI/pVmhNPYmUZRdpKwUUUUyQooooAKKKKAGv9
+5P8Ae/oadTX+8n+9/Q06gAqvLeRxSKhBIJwWHIB9Kiv7mRY3WAHK43t/dz/Wm6dZtGpkm6t/Ce3u
+fegC/WZ4g/48U/66D+RrTrM8Qf8AHin/AF0H8jUz+Fm+H/ixGX1zYWshi+zxeZx1iBAFRQX+ntLs
+khhbOApWDHP61Jq2ftZC7FxA0hJjViSPqKrQOo1CKLcr5lK4MCgEAdQceuRTSRk5y7lt444tft1j
+RUHlk4UY7NWrWZP/AMjDbf8AXM/+zVp0o9TWs7qPp/mFFFFUYBRRRQAUUUUANf7yf739DTqa/wB5
+P97+hp1AECWiK5dizsW3fMeAfpU9FFABWZ4g/wCPFP8AroP5GtOori3iuUCTLuUHOMkc/hSkrqxp
+SmoTUmZuogTz74Lq1wYjGd8nr9KrMJTDbzxtF5kAuJT1Kth+351NqGm28csO0PDC2VeRTnDHG3Oe
+3WtCytBBarFKqMRvHA4wzE457dKFfqE+T7NyhGbp9ahe5jQbCYi8Z4LbS3Q89DWzVS8xHNbMkZZm
+mJIXGSfLYd/apPPk/wCfSb80/wDiqdrEuTla/QnoqDz5P+fSb80/+Ko8+T/n0m/NP/iqCSeioPPk
+/wCfSb80/wDiqPPk/wCfSb80/wDiqAJ6Kg8+T/n0m/NP/iqKAHysEKMxwA39DSfaIv7/AOhoooAP
+tEX9/wDQ0faIv7/6GiigA+0Rf3/0NH2iL+/+hoooAbJLbyxPG5yjgqwweQapxXU1p+5MbXMSj5JF
+IDY9GBxz70UUAEEk11qUTzosaJGzRxhskHIGT26H361oTS+UF+RnLHAC4z+poooAIpBLGHAI5IIP
+UEcGn0UUAFFFFABRRRQB/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="466e0783-1ef6-4837-8100-200a1357533e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9e788426-ce0d-4480-a052-ac73694649c4"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="377,369,1175,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#10;Didi Sport Watch has been removed from your Wish List.&#10;
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-bind"
+					readonly="False"
+					type="System.String">
+						html: $parent.prepareMessageForHtml(message.text)
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[1]//div[@innertext&gt;'Didi Sport Watch has been']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="20c21857-3c8c-4293-babc-d3b3388d7799">
+				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
+APZVpUUcvmHL5mb52q/8+0X5/wD2VHnar/z7Rfn/APZVpUUcvmHL5mb52q/8+0X5/wD2VFaVFHL5
+hy+Y1QwLbmyD0GMYp1Zvk6r/AM/MX5f/AGNHk6r/AM/MX5f/AGNHN5BzeRpUVm+Tqv8Az8xfl/8A
+Y0eTqv8Az8xfl/8AY0c3kHN5GlRWb5Oq/wDPzF+X/wBjR5Oq/wDPzF+X/wBjRzeQc3kaVFZvk6r/
+AM/MX5f/AGNHk6r/AM/MX5f/AGNHN5BzeRpUVm+Tqv8Az8xfl/8AY0eTqv8Az8xfl/8AY0c3kHN5
+GlRWb5Oq/wDPzF+X/wBjR5Oq/wDPzF+X/wBjRzeQc3kaVFZvk6r/AM/MX5f/AGNHk6r/AM/MX5f/
+AGNHN5BzeRpUVm+Tqv8Az8xfl/8AY0eTqv8Az8xfl/8AY0c3kHN5GlRWb5Oq/wDPzF+X/wBjR5Oq
+/wDPzF+X/wBjRzeQc3kaVFZvk6r/AM/MX5f/AGNHk6r/AM/MX5f/AGNHN5BzeRpUVm+Tqv8Az8xf
+l/8AY0eTqv8Az8xfl/8AY0c3kHN5GlRWb5Oq/wDPzF+X/wBjR5Oq/wDPzF+X/wBjRzeQc3kaVFZv
+k6r/AM/MX5f/AGNHk6r/AM/MX5f/AGNHN5BzeRpUVm+Tqv8Az8xfl/8AY0eTqv8Az8xfl/8AY0c3
+kHN5GlRWb5Oq/wDPzF+X/wBjR5Oq/wDPzF+X/wBjRzeQc3kaVFZvk6r/AM/MX5f/AGNHk6r/AM/M
+X5f/AGNHN5BzeRpUVm+Tqv8Az8xfl/8AY0eTqv8Az8xfl/8AY0c3kHN5GlRWb5Oq/wDPzF+X/wBj
+R5Oq/wDPzF+X/wBjRzeQc3kaVFZvk6r/AM/MX5f/AGNHk6r/AM/MX5f/AGNHN5BzeRpUVm+Tqv8A
+z8xfl/8AY0eTqv8Az8xfl/8AY0c3kHN5GlRWb5Oq/wDPzF+X/wBjR5Oq/wDPzF+X/wBjRzeQc3ka
+VFZvk6r/AM/MX5f/AGNHk6r/AM/MX5f/AGNHN5BzeRpUVm+Tqv8Az8xfl/8AY0eTqv8Az8xfl/8A
+Y0c3kHN5GlRWb5Oq/wDPzF+X/wBjR5Oq/wDPzF+X/wBjRzeQc3kaVFZvk6r/AM/MX5f/AGNHk6r/
+AM/MX5f/AGNHN5BzeRpUVm+Tqv8Az8xfl/8AY0eTqv8Az8xfl/8AY0c3kHN5GlRWb5Oq/wDPzF+X
+/wBjR5Oq/wDPzF+X/wBjRzeQc3kaVFZvk6r/AM/MX5f/AGNHk6r/AM/MX5f/AGNHN5BzeRpUVm+T
+qv8Az8xfl/8AY0eTqv8Az8xfl/8AY0c3kHN5GlRWb5Oq/wDPzF+X/wBjR5Oq/wDPzF+X/wBjRzeQ
+c3kaVFZvk6r/AM/MX5f/AGNHk6r/AM/MX5f/AGNHN5BzeRpUVm+Tqv8Az8xfl/8AY0Uc3kHN5Gps
+96NnvT6Ks0GbPejZ70+igBmz3o2e9PooAZs96NnvT6KAGbPejZ70+igBmz3o2e9PooAZs96NnvT6
+KAGbPejZ70+igBmz3o2e9PooAZs96NnvT6KAGbPejZ70+igBmz3o2e9PooAZs96NnvT6KAGbPejZ
+70+igBmz3o2e9PooAZs96NnvT6KAGbPejZ70+igBmz3o2e9PooAZs96NnvT6KAGbPejZ70+igBmz
+3o2e9PooAZs96NnvT6KAGbPejZ70+igBmz3o2e9PooAZs96NnvT6KAGbPejZ70+igBmz3o2e9Poo
+AZs96NnvT6KAGbPejZ70+igBmz3o2e9PooAZs96NnvT6KAGbPein0UAf/9k=
+			</helperscreenshot>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				&#10;Didi Sport Watch has been removed from your Wish List.&#10;
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Move"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="fa67bd1a-d546-4042-b91c-69c53bc70cb8"
+		sx="712"
+		sy="775"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="774618f5-bc58-433f-9da1-637710b8879a"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="633,766,159,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						product-item-link
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#10;Set of Sprite Yoga Straps&#32;
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						product-item-link
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://magento.softwaretestingboard.com/set-of-sprite-yoga-straps.html?qty=1
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Set of Sprite Yoga Straps
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//form[#'wishlist-view-form']/?/?/ol//strong/a[@innertext&gt;'Set of Sprite Yoga Straps']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="7;15"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="20e76603-0eea-436b-ab1f-cf3b16b7cb49"
+		sx="673"
+		sy="805"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cdd68df8-eced-48e6-b1ce-ec0782ef241a"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="atag"
+				rect="666,790,18,21"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						btn-remove action delete
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						action btn-remove delete
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://magento.softwaretestingboard.com/wishlist/index/index/wishlist_id/68559/#
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Remove Item
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-post-remove"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//form[#'wishlist-view-form']/?/?/ol/li/div/div[2]/?/?/a[@title='Remove Item']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="700506eb-cefd-4362-8b69-82f27a9b46ac">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA3AHIDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDon+8n
++9/Q06mv95P97+hp1ABRRRQAUUVFcXEVsgeZtqk4zgnn8KBpNuyJaKpf2tY/89//ABxv8KP7Wsf+
+e/8A443+FLmXcv2NT+V/cXaKrQ6hazyiOKXc7dBtI/pVmhNPYmUZRdpKwUUUUyQooooAKKKKAGv9
+5P8Ae/oadTX+8n+9/Q06gAqvLeRxSKhBIJwWHIB9Kiv7mRY3WAHK43t/dz/Wm6dZtGpkm6t/Ce3u
+fegC/WZ4g/48U/66D+RrTrM8Qf8AHin/AF0H8jUz+Fm+H/ixGX1zYWshi+zxeZx1iBAFRQX+ntLs
+khhbOApWDHP61Jq2ftZC7FxA0hJjViSPqKiiRo7yJWKOvnbCDEg42g9h700kZOcu5O8ccWv26xoq
+DyycKMdmrVrMn/5GG2/65n/2atOlHqa1ndR9P8woooqjAKKKKACiiigBr/eT/e/oadTX+8n+9/Q0
+6gCBLRFcuxZ2LbvmPAP0qeiigArM8Qf8eKf9dB/I1p1FcW8VygSZdyg5xkjn8KUldWNKU1CakzL1
+IR3F3C6TW8kZKRum/JILjoKpRs9regGBltUuJJAyrnCg7SfoOKtLBE0gaCyAEdyE3rKWK7XGSQeg
+xn1rTaxjaNk3N8yyL/32cmmr9SZ8t/dKAuYbrXLaSBw6+WR0xg/N2NbFZ0Ys49RuZpnjSZZBtLPj
+jYvbPuatfbbX/n5h/wC/gpJWuVUmpJW6InoqD7ba/wDPzD/38FH221/5+Yf+/gpmZPRUH221/wCf
+mH/v4KPttr/z8w/9/BQBPRUH221/5+Yf+/gooAfKwQozHADf0NJ9oi/v/oaKKAD7RF/f/Q0faIv7
+/wChoooAPtEX9/8AQ0faIv7/AOhoooAp3cq2832yAggD9+gGC6+vpkfqPwqdtRtVtftBkPlkZB2m
+iimAzSnM9s90f+XiQuB/dAwoH5LV2iikAUUUUAFFFFABRRRQB//Z
+			</helperscreenshot>
+		</mouseitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="c291885a-8e05-4838-872b-09f732150d35">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ee8b240e-9a9e-479e-a91f-cb232ff0195d"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="678,545,212,18"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						You have no items in your wish list.
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//form[#'wishlist-view-form']/?/?/span[@innertext&gt;'You have no items in your']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				You have no items in your wish list.
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="4249514b-bd01-474c-8010-cc01a0858865">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="504aa3b2-c3ec-455a-a09c-972c47622719"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="377,369,1175,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#10;Set of Sprite Yoga Straps has been removed from your Wish List.&#10;
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-bind"
+					readonly="False"
+					type="System.String">
+						html: $parent.prepareMessageForHtml(message.text)
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//main[#'maincontent']/div[1]//div[@innertext&gt;'Set of Sprite Yoga Straps']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="997e97e4-4e1b-40b9-b135-5b26750f8bec">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA/AfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKj3
+N60bm9aAJKKj3N60bm9aAJKKj3N60bm9aAJKKj3N60bm9aAJKKj3N60bm9aAJKKj3N60bm9aAJKK
+j3N60bm9aAJKKj3N60bm9aAJKKj3N60bm9aAJKKj3N60bm9aAJKKj3N60bm9aAJKKj3N60bm9aAJ
+KKj3N60bm9aAJKKj3N60bm9aAJKKj3N60bm9aAJKKj3N60bm9aAJKKj3N60bm9aAJKKj3N60bm9a
+AJKKj3N60bm9aAJKKj3N60bm9aAJKKj3N60bm9aAJKKj3N60bm9aAJKKj3N60bm9aAJKKj3N60bm
+9aAJKKj3N60bm9aAJKKj3N60bm9aAJKKj3N60bm9aAJKKj3N60bm9aAJKKj3N60bm9aAJKKj3N60
+bm9aAJKKj3N60bm9aAJKKj3N60UAZnnar/z7Rfn/APZUedqv/PtF+f8A9lVo3GWyuNm1TnGep4pw
+m3FgqNhcjdxjI/HP6VFvMz5fMp+dqv8Az7Rfn/8AZUedqv8Az7Rfn/8AZVat7gukQdWDOgIY4w3H
+NSBz55TjAUH9TRy+YKN1e5R87Vf+faL8/wD7KjztV/59ovz/APsqtm4CkjazNv2gAAds9zQJ2NwI
+/KYDaGJyOP1ot5hy+ZU87Vf+faL8/wD7KjztV/59ovz/APsq0qKOXzDl8zN87Vf+faL8/wD7Kjzt
+V/59ovz/APsq0qKOXzDl8zN87Vf+faL8/wD7KjztV/59ovz/APsq0qKOXzDl8zN87Vf+faL8/wD7
+KjztV/59ovz/APsq0qKOXzDl8zN87Vf+faL8/wD7KjztV/59ovz/APsq0qKOXzDl8zN87Vf+faL8
+/wD7KjztV/59ovz/APsq0qKOXzDl8zN87Vf+faL8/wD7KjztV/59ovz/APsq0qKOXzDl8zN87Vf+
+faL8/wD7KjztV/59ovz/APsq0qKOXzDl8zN87Vf+faL8/wD7KjztV/59ovz/APsq0qKOXzDl8zN8
+7Vf+faL8/wD7KjztV/59ovz/APsq0qKOXzDl8zN87Vf+faL8/wD7KjztV/59ovz/APsq0qKOXzDl
+8zN87Vf+faL8/wD7KjztV/59ovz/APsq0qKOXzDl8zN87Vf+faL8/wD7KjztV/59ovz/APsq0qKO
+XzDl8zN87Vf+faL8/wD7KjztV/59ovz/APsq0qKOXzDl8zN87Vf+faL8/wD7KjztV/59ovz/APsq
+0qKOXzDl8zN87Vf+faL8/wD7KjztV/59ovz/APsq0qKOXzDl8zN87Vf+faL8/wD7KjztV/59ovz/
+APsq0qKOXzDl8zN87Vf+faL8/wD7KjztV/59ovz/APsq0qKOXzDl8zN87Vf+faL8/wD7KjztV/59
+ovz/APsq0qKOXzDl8zN87Vf+faL8/wD7KjztV/59ovz/APsq0qKOXzDl8zN87Vf+faL8/wD7Kjzt
+V/59ovz/APsq0qKOXzDl8zN87Vf+faL8/wD7KjztV/59ovz/APsq0qKOXzDl8zN87Vf+faL8/wD7
+KjztV/59ovz/APsq0qKOXzDl8zN87Vf+faL8/wD7KjztV/59ovz/APsq0qKOXzDl8zN87Vf+faL8
+/wD7KjztV/59ovz/APsq0qKOXzDl8zN87Vf+faL8/wD7KjztV/59ovz/APsq0qKOXzDl8zN87Vf+
+faL8/wD7KjztV/59ovz/APsq0qKOXzDl8zN87Vf+faL8/wD7KjztV/59ovz/APsq0qKOXzDl8zN8
+7Vf+faL8/wD7KitKijl8w5fMrpahY3QN95w2cdBnp+lKYGabzCyjqBtXBPsTnmqnk6r/AM/MX5f/
+AGNHk6r/AM/MX5f/AGNF/IObyLiwbfJ+b/VLjp14xRJHKZfMikRcrghkJ/qKp+Tqv/PzF+X/ANjR
+5Oq/8/MX5f8A2NF/IObpYttAxVwGQ723EOmR0A6Z9qEgaN0ZZM4Xa2RnNVPJ1X/n5i/L/wCxo8nV
+f+fmL8v/ALGi/kHN5GggYIAzbmA5OMZp1Zvk6r/z8xfl/wDY0eTqv/PzF+X/ANjRzeQc3kaVFZvk
+6r/z8xfl/wDY0eTqv/PzF+X/ANjRzeQc3kaVFZvk6r/z8xfl/wDY0eTqv/PzF+X/ANjRzeQc3kaV
+FZvk6r/z8xfl/wDY0eTqv/PzF+X/ANjRzeQc3kaVFZvk6r/z8xfl/wDY0eTqv/PzF+X/ANjRzeQc
+3kaVFZvk6r/z8xfl/wDY0eTqv/PzF+X/ANjRzeQc3kaVFZvk6r/z8xfl/wDY0eTqv/PzF+X/ANjR
+zeQc3kaVFZvk6r/z8xfl/wDY0eTqv/PzF+X/ANjRzeQc3kaVFZvk6r/z8xfl/wDY0eTqv/PzF+X/
+ANjRzeQc3kaVFZvk6r/z8xfl/wDY0eTqv/PzF+X/ANjRzeQc3kaVFZvk6r/z8xfl/wDY0eTqv/Pz
+F+X/ANjRzeQc3kaVFZvk6r/z8xfl/wDY0eTqv/PzF+X/ANjRzeQc3kaVFZvk6r/z8xfl/wDY0eTq
+v/PzF+X/ANjRzeQc3kaVFZvk6r/z8xfl/wDY0eTqv/PzF+X/ANjRzeQc3kaVFZvk6r/z8xfl/wDY
+0eTqv/PzF+X/ANjRzeQc3kaVFZvk6r/z8xfl/wDY0eTqv/PzF+X/ANjRzeQc3kaVFZvk6r/z8xfl
+/wDY0eTqv/PzF+X/ANjRzeQc3kaVFZvk6r/z8xfl/wDY0eTqv/PzF+X/ANjRzeQc3kaVFZvk6r/z
+8xfl/wDY0eTqv/PzF+X/ANjRzeQc3kaVFZvk6r/z8xfl/wDY0eTqv/PzF+X/ANjRzeQc3kaVFZvk
+6r/z8xfl/wDY0eTqv/PzF+X/ANjRzeQc3kaVFZvk6r/z8xfl/wDY0eTqv/PzF+X/ANjRzeQc3kaV
+FZvk6r/z8xfl/wDY0eTqv/PzF+X/ANjRzeQc3kaVFZvk6r/z8xfl/wDY0eTqv/PzF+X/ANjRzeQc
+3kaVFZvk6r/z8xfl/wDY0eTqv/PzF+X/ANjRzeQc3kaVFZvk6r/z8xfl/wDY0eTqv/PzF+X/ANjR
+zeQc3kaVFZvk6r/z8xfl/wDY0eTqv/PzF+X/ANjRzeQc3kaVFZvk6r/z8xfl/wDY0eTqv/PzF+X/
+ANjRzeQc3kaVFZvk6r/z8xfl/wDY0Uc3kHN5Gps96NnvT6Ks0GbPejZ70+igBmz3o2e9PooAZs96
+NnvT6KAGbPejZ70+igBmz3o2e9PooAZs96NnvT6KAGbPejZ70+igBmz3o2e9PooAZs96NnvT6KAG
+bPejZ70+igBmz3o2e9PooAZs96NnvT6KAGbPejZ70+igBmz3o2e9PooAZs96NnvT6KAGbPejZ70+
+igBmz3o2e9PooAZs96NnvT6KAGbPejZ70+igBmz3o2e9PooAZs96NnvT6KAGbPejZ70+igBmz3o2
+e9PooAZs96NnvT6KAGbPejZ70+igBmz3o2e9PooAZs96NnvT6KAGbPejZ70+igBmz3o2e9PooAZs
+96NnvT6KAGbPein0UAf/2Q==
+			</helperscreenshot>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				&#10;Set of Sprite Yoga Straps has been removed from your Wish List.&#10;
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="f2adb914-862c-410a-b1b4-b8198a731dc0"
+	name="DemoSite_01Repository"
+	relativepath="DemoSite_01Repository.rxrep">
+		<codegen
+		classname="DemoSite_01Repository"
+		namespace="DemoSite_01">
+		</codegen>
+		<rootfolder
+		id="8da48f1f-e6e6-475b-bb3a-0a59fc9ea6b8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		WishlistFunctionality.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

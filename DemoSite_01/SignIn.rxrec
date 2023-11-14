@@ -1,0 +1,720 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0bc1c3bb-6ca5-411b-a38c-a9341e19e95a"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SignIn"
+	namespace="DemoSite_01">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="8b558097-152e-4ef4-9688-fca22a49ada5"
+		waitaction="Exists"
+		waittimeout="10000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b6971fa0-18ca-4220-a212-287be55ceda7"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']/body/div[2]/header/div[1]/div/ul/?/?/a[@innertext='Sign In ']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="9d08cc73-0398-45ec-ada9-2076af7065f6">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b6971fa0-18ca-4220-a212-287be55ceda7"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="1376,162,44,20"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#10;Sign In&#32;
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']/body/div[2]/header/div[1]/div/ul/?/?/a[@innertext='Sign In ']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="57535b04-a518-4d25-84ce-ad294f54dd00">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA8AK4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwChRVjy
+09P1o8tPT9a5/ZM9b69T7P8Ar5leirHlp6frR5aen60eyYfXqfZ/18yvRVjy09P1o8tPT9aPZMPr
+1Ps/6+ZXoqx5aen60eWnp+tHsmH16n2f9fMr0VY8tPT9aPLT0/Wj2TD69T7P+vmV6KseWnp+tHlp
+6frR7Jh9ep9n/XzK9FWPLT0/Wjy09P1o9kw+vU+z/r5leirHlp6frR5aen60eyYfXqfZ/wBfMr0V
+Y8tPT9aPLT0/Wj2TD69T7P8Ar5leirHlp6frR5aen60eyYfXqfZ/18yvRVjy09P1o8tPT9aPZMPr
+1Ps/6+Y6irrWsAODJsw4By6nI9cDpTo4I0ukVonwQxG5gQePpXQeSUKKmgjSa6VPmVGPrk9Kljt4
+51BiLrhwrbjng96AKlFWhDBIrMjOgRgGLEHgnrUscESXcamJyrZwSwKtx9KAKFNkOIzipG2ljsBA
+7AnNRy/6s1MtmTL4WNCMQD5h5o8tv+ehq/bgPbRrAIjIB8yuoJb6ZpRbo2wtuwIS5CgAnmlyqxKg
+mjP8tv8AnoaPLb/noa0TbQdf3oAi8wjIz16dKgnjRUjkj3bXB4Y5IwafIh8kSr5bf89DSMrKpO8m
+tMwxMVLAqq24c7cDJqreRotukke4BweGOcYNTKKSFKCSbIl+6PpS0+0i86SNCcAjk+2KsJBDKEaP
+eoMgRgxBPPerRa2KlFSTCNZCse7CnBLHrTrSNZblEb7p60xkNFWPN86QRmONVZgPlQAjn1qQW8LS
+yqpfbFnJLAZOcd+lAFOirZtk8z5MumzccSL8p9CelWrO2hW5dGTeNgYbsHGf89aAKLXO5txhi3E5
+Jwef1pRdMrIURFCZIUA45696r0UAWbR1F6jnai59eBx7003T4ARUjw275R1NQUUATtckjAjjUFtz
+AA/N9aUXbKU2IiBSWwAcE/iar0UAOYhmJChR6DpUcv8AqzTqRl3KR0pPYmWqZbt54Y44yBiRV+95
+ecH/AL6/pUkMql8q4LJHtTf8mefXPv6is3y2/wCeho8tv+ehqU32JTlbY0pZI1PzMN8iEPsO/vx1
+P9ahd4XjRDJJhM4/djv/AMCqn5bf89DR5bf89DTu+w+aXYv+fFj/AFj/AOr8v/VDp/31UF26NbIi
+MxCZ6pjqfqar+W3/AD0NBiJHLmk22thNyatYlgkaIo6dRU32phs2IiBW34UHBNQAYAHpRVItbCsd
+zFj1JzSo7RuHQ4YHINNopjJ2uMtuEMatkHIB/wAaRbh1ld8KfMzuUjg5qGigCcXO0MBFHsYAFcHH
+H45p630qTGRQgJULjHGBVWigDe/s21/55n/vo0f2ba/88z/30at0UAVP7Ntf+eZ/76NH9m2v/PM/
+99GrdFAFT+zbX/nmf++jR/Ztr/zzP/fRq3RQBU/s21/55n/vo0f2ba/88z/30at0UAVP7Ntf+eZ/
+76NH9m2v/PM/99GrdFAFT+zbX/nmf++jR/Ztr/zzP/fRq3RQBU/s21/55n/vo0f2ba/88z/30at0
+UAVP7Ntf+eZ/76NH9m2v/PM/99GrdFAFT+zbX/nmf++jR/Ztr/zzP/fRq3RQBU/s21/55n/vo0f2
+ba/88z/30at0UAVP7Ntf+eZ/76NH9m2v/PM/99GrdFAH/9k=
+			</helperscreenshot>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				&#10;Sign In&#32;
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="15;10"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="5d65db17-1671-4072-b001-5a8af5bab8cd"
+		sx="1391"
+		sy="172"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b6971fa0-18ca-4220-a212-287be55ceda7"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="1376,162,44,20"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#10;Sign In&#32;
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']/body/div[2]/header/div[1]/div/ul/?/?/a[@innertext='Sign In ']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="19c82347-eec3-4582-b082-083bbc2498fc">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA8AK4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwChRVjy
+09P1o8tPT9a5/ZM9b69T7P8Ar5leirHlp6frR5aen60eyYfXqfZ/18yvRVjy09P1o8tPT9aPZMPr
+1Ps/6+ZXoqx5aen60eWnp+tHsmH16n2f9fMr0VY8tPT9aPLT0/Wj2TD69T7P+vmV6KseWnp+tHlp
+6frR7Jh9ep9n/XzK9FWPLT0/Wjy09P1o9kw+vU+z/r5leirHlp6frR5aen60eyYfXqfZ/wBfMr0V
+Y8tPT9aPLT0/Wj2TD69T7P8Ar5leirHlp6frR5aen60eyYfXqfZ/18yvRVjy09P1o8tPT9aPZMPr
+1Ps/6+Y6irrWsAODJsw4By6nI9cDpTo4I0ukVonwQxG5gQePpXQeSUKKmgjSa6VPmVGPrk9Kljt4
+51BiLrhwrbjng96AKlFWhDBIrMjOgRgGLEHgnrUscESXcamJyrZwSwKtx9KAKFNkOEOKkbaWOwED
+sCc1HL/qzUy2ZpS/iR9UNCMQDvPNL5bf89DV63Ae2jWARGQD5ldQS30zQYY9qvISFWEyNgAHg/Sl
+yo0lXmpNL8kUfLb/AJ6Gjy2/56GrsaWshfb5wCJucNwQeOOR71HPGipHJHu2uDwxyRg0+RE/WKn9
+JFby2/56GmsrKpO8mtMwxMVLAqq24c7cDJqreRotukke4BweGOcYNTKKSNKdacppPv2REv3R9KWn
+2kXnSRoTgEcn2xVhIIZQjR71BkCMGIJ571aOefxMqUVJMI1kKx7sKcEsetOtI1luURvunrTJIaKs
+eb50gjMcaqzAfKgBHPrUgt4WllVS+2LOSWAyc479KAKdFWzbJ5nyZdNm44kX5T6E9KtWdtCty6Mm
+8bAw3YOM/wCetAFFrnc24wxbick4PP60oumVkKIihMkKAcc9e9V6KALNo6i9RztRc+vA496abp8A
+IqR4bd8o6moKKAJ2uSRgRxqC25gAfm+tKLtlKbERApLYAOCfxNV6KAHMQzEhQo9B0qOX/VmnUjLu
+UjpSexdNqM033LdvPDHHGQMSKv3vLzg/99f0pJZUa3mw+SluyruG3PXPc+tUvLb++altrP7X5sP2
+hkmxmMN91hjn3zSTfYucYXupfgXbqG5a/uDbtF++kEWHB4/dhs8fSqySb4YkuQ0RCB0CgNlW6HOR
+710Xlpu3bFzndnHfGM/lxWDrEYF+qRnYqwqAB2GWqmZxSbs3Yd58WP8AWP8A6vy/9UOn/fVQXTo1
+siIzEJnqmOp+pqDy2/56GkMZPVzUNtrY3hGnGSlz7eTJYJGiKOnUVN9qYbNiIgVt+FBwTUAGAB6U
+VSOeTvJsVjuYsepOaVHaNw6HDA5BptFMRO1xltwhjVsg5AP+NItw6yu+FPmZ3KRwc1DRQBOLnaGA
+ij2MACuDjj8c09b6VJjIoQEqFxjjAqrRQBvf2ba/88z/AN9Gj+zbX/nmf++jVuigCp/Ztr/zzP8A
+30aP7Ntf+eZ/76NW6KAKn9m2v/PM/wDfRo/s21/55n/vo1booAqf2ba/88z/AN9Gj+zbX/nmf++j
+VuigCp/Ztr/zzP8A30abJpcDKDFuilU7kcEnafp3q7RQBSW5vljIksGaQcZSRdre4ycj8qbFp3mM
+819teZz/AAE4VR0A/wA96v0UAVP7Ntf+eZ/76NH9m2v/ADzP/fRq3RQBU/s21/55n/vo0f2ba/8A
+PM/99GrdFAFT+zbX/nmf++jR/Ztr/wA8z/30at0UAVP7Ntf+eZ/76NH9m2v/ADzP/fRq3RQBU/s2
+1/55n/vo0f2ba/8APM/99GrdFAH/2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="test.account6@gmail.com"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="372ecc59-1a3a-4cfe-a118-f5af56d543d1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5f45aa82-1145-4f18-b027-36d3cd227061"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="332,560,476,32"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						input-text
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						email
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						input-text
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						login[username]
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Email
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						email
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-required"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-validate"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//input[#'email']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="Test1234"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="d0eb70d9-8f5a-42dd-b186-a74958c0cc4b">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d05582d0-5812-45a2-b915-41ece52cf1e8"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="332,640,476,32"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						input-text
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						pass
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						input-text
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						login[password]
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Password
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						password
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-required"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-validate"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//form[#'login-form']/fieldset/div[3]/?/?/input[@id='pass']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="cad6dfe8-a249-410c-96b2-b29bcc9d3635">
+				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
+KACiiigAooooAKKKKACiiigAooooA//Z
+			</helperscreenshot>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="37;14"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="b9eeecd1-93f7-42c3-8f06-aea0db7dea0f"
+		sx="385"
+		sy="712"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1265a0ff-39b2-4c5c-9d14-e514576c8b74"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="348,698,45,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Sign In
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='magento.softwaretestingboard.com']//form[#'login-form']//button[@id='send2']/span[@innertext='Sign In']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="4258ab08-9ff7-4964-a49f-b7edb5039dee">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA0AGEDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKy
+tQ1WW2umhiRDtxktk54zVRi5OyJlJRV2atFYH9uXP9yH8j/jR/blz/ch/I/403Dl3Y4Nz+FN/I36
+KwP7cuf7kP5H/Gj+3Ln+5D+R/wAamy7r7yuSp/I/uZv0Vgf25c/3IfyP+NH9uXP9yH8j/jRZd194
+clT+R/czforA/ty5/uQ/kf8AGj+3Ln+5D+R/xpqN9E0TLmgryi18jforGtdYmkuY45I49rsF+UEH
+n8a2aJRcdxRkpbBRRRUlBXNav/yE5vw/kK6Wua1f/kJzfh/IVtR+IxrfCUz0qeCznnj3xx5XOMkg
+Z/OoD0rTsYpJ7ZIprffBklZA2CnrVT/iL0Lp3+ru3dfkzPeLYgJZc5IKjqMUytu0CrHbKuHAlcA/
+nzTg832y0jlEhClsu6gbjg+lO67GV5/zMwqeYXEIm2/IW25z3q9cSvcaYzyncyzYBx0GOlEDKlhb
+M7BVF0CSTgCq0tsTzTvbmZnUg6VqS3BubS9y6uiOvlkYwBuxxWWOlRpzx07/AKG6b9hO7vt+pPZf
+8fsH/XRf511dcpZf8fsH/XRf511dKtujOhswooorA3Cua1f/AJCc34fyFdLVO60yC6l8xy6seu09
+a0pyUXdmdSLkrI5o9KQGug/sS2/vzfmP8KP7Etv7835j/CqlJOXMnb5Dp+7BwnG+t97foYttctby
+F0CnIKkMMginT3bTRrHsSNFOdqDAzWx/Ylt/fm/Mf4Uf2Jbf35vzH+FTzO9+b8P+CV+7tbk/8m/4
+Bz+akt8G7twf+eyf+hCtz+xLb+/N+Y/wqhb6e5ui0bBvJuAGjPysoDAg++Rz2pubt8X4Ban0h+P/
+AACtdW06zTSJEpjLyvw3IVWwePxqDDKSroyMDyrDBFdW1pCyMpXhg6nk9GOW/WqLadDeXl1JIzgi
+QL8pH9xfalGeqb6EyT5HGPUyLL/j9g/66L/OurqjBpNtBMsgMjFTkBiMZ/Kr1FSSk9CaUHFahRRR
+WZqFFFFABRRRQAUUUUAFUNRJgurOeM4dpRC3oynJ5+mOPqaKKAL9U9Ly9vJMxJaWV2Ptg7Rj8FFF
+FAFyiiigAooooA//2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="f2adb914-862c-410a-b1b4-b8198a731dc0"
+	name="DemoSite_01Repository"
+	relativepath="DemoSite_01Repository.rxrep">
+		<codegen
+		classname="DemoSite_01Repository"
+		namespace="DemoSite_01">
+		</codegen>
+		<rootfolder
+		id="8da48f1f-e6e6-475b-bb3a-0a59fc9ea6b8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SignIn.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
